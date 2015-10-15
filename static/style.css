@@ -1,0 +1,37 @@
+* {
+	border: 1px dotted black;
+}
+
+div.messages {
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+	display: inline-block;
+	border-radius: 4px;
+	overflow-y: scroll;
+	/*background-image: url(/static/cat1copy.jpg);*/
+}
+
+div.users {
+	margin-left: 5px;
+	vertical-align: top;
+	height: 400px;
+	width: 100px;
+	border: 1px solid black;
+	display: inline-block;
+	border-radius: 4px;
+}
+#message {
+	border-radius: 4px;
+	width: 397px;
+	display: inline-block;
+	height: 15px;
+	background-color: #E6F5FF;
+}
+#submit {
+	display: inline-block;
+	border-radius:5px;
+	margin-left: 4px;
+	width: 103px;
+	background-color: 
+}
