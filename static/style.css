@@ -3,8 +3,8 @@
 }
 
 div.messages {
-	height: 400px;
-	width: 400px;
+	height: 600px;
+	width: 500px;
 	border: 1px solid black;
 	display: inline-block;
 	border-radius: 4px;
@@ -15,7 +15,7 @@ div.messages {
 div.users {
 	margin-left: 5px;
 	vertical-align: top;
-	height: 400px;
+	height: 600px;
 	width: 100px;
 	border: 1px solid black;
 	display: inline-block;
@@ -23,7 +23,7 @@ div.users {
 }
 #message {
 	border-radius: 4px;
-	width: 397px;
+	width: 497px;
 	display: inline-block;
 	height: 15px;
 	background-color: #E6F5FF;
@@ -34,4 +34,13 @@ div.users {
 	margin-left: 4px;
 	width: 103px;
 	background-color: 
+}
+.log {
+	color: red;
+	font-size: 90%;
+	margin-left: 5px;
+}
+
+img {
+	
 }

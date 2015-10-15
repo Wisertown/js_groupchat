@@ -17,11 +17,15 @@
 		socket.emit('newUser',{name: myName});
 		socket.on('updateUserList', function(users){
 			$('div.users').html('')
-			$(users).each(function(index){
-				$('div.users').append("<h4>"+users[index].name+"</h4>")
+			var str = '';
+			$.each(users, function(index){
+				$('div.users').append("<h4>"+users[index].name+"</h4>");
+				str += "<p class='log'><i><strong>"+users[index].name+" has logged on!</strong></i></p>";
 				console.log(users[index]);
 			})
+			$('div.messages').html(str);
 		})
+	
 		socket.on('addMessage', function(data){
 			
 			$('div.messages').append(data.message);
@@ -34,6 +38,7 @@
 			$('#message').val("");
 			return false;
 		})
+		
 
 		</script>
 </head>
